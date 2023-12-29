@@ -813,6 +813,24 @@ Return the |uncompressed bitstring|.
       </ol>
     </section>
 
+    <section class="normative">
+      <h3>Securing Algorithms</h3>
+      <p>
+There are multiple ways that the information in Section
+<a href="#data-model"></a> can be secured. These mechanisms are elaborated
+upon in the
+<a data-cite="VC-DATA-MODEL-2.0#securing-mechanisms">Securing Mechanisms</a>
+section of the [[[VC-DATA-MODEL-2.0]]].
+      </p>
+      <p>
+When securing a <a>verifiable credential</a> that contains a reference to
+a <a href="#bitstringstatuslistcredential">BitstringStatusListCredential</a>,
+implementers SHOULD use the same securing mechanism with the same
+cryptographic parameters and the same media type for both
+<a>verifiable credentials</a>.
+      </p>
+    </section>
+
   </section>
 
   <section class="informative">
